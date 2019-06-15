@@ -18,6 +18,7 @@
       "typeorm": "0.2.18"
    },
    "scripts": {
-      "start": "ts-node src/index.ts"
+      "start": "ts-node src/index.ts",
+      "generate": "ts-node ./node_modules/typeorm/cli -f ormconfig.json"
    }
 }
