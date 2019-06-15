@@ -1,0 +1,23 @@
+{
+   "name": "new-typeorm-project",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/koa": "^2.0.48",
+      "@types/koa-router": "^7.0.40",
+      "@types/node": "^8.0.29",
+      "nodemon": "^1.19.1",
+      "ts-node": "^8.3.0",
+      "typescript": "^3.5.2"
+   },
+   "dependencies": {
+      "koa": "^2.7.0",
+      "koa-router": "^7.4.0",
+      "mysql": "^2.14.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.18"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
